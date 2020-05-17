@@ -22,6 +22,12 @@
    - Add $dir for storage location
    - Reformat indentation
    - Minor edits to messages
+ 
+   Samuel 17-May-2020 K5MOB / WQXL267
+    - Comment out Allstar URLs
+    - Comment GMRSnetwork URL
+ 
+ 
  */
 
 $dir = "/var/www/html/allmon2/";
@@ -35,8 +41,9 @@ $contents = '';
 $contents2 = '';
 
 #$url = "https://allstarlink.org/cgi-bin/allmondb.pl";
-$url2 = "https://nodelist.hamvoip.org/getASLdb.php";
-$url = "http://allmondb.allstarlink.org/";
+#$url2 = "https://nodelist.hamvoip.org/getASLdb.php";
+#$url = "http://allmondb.allstarlink.org/";
+$url = "http://am2db.gmrsnetwork.com/";
 
 // Load private nodes if any
 // Private nodes are less than 2000 and loaded first
