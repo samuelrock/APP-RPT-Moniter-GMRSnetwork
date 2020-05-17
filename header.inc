@@ -190,7 +190,7 @@ $(document).ready(function() {
 </head>
 <body>
 <div id="header">
-<div id="headerTitle"><a href="<?php echo $home ?>">Allstar Monitor II</a></div>
+<div id="headerTitle"><a href="<?php echo $home ?>">APP_RPT Monitor II</a></div>
 <div id="headerTag">
 Monitoring the World One Node at a Time
 </div>
@@ -199,7 +199,7 @@ Monitoring the World One Node at a Time
 <a href="#" id="loginlink">Login</a>
 <a href="#" id="logoutlink">Logout</a>
 </div>
-<div id="headerImg"><img src="allstarLogo.png" alt="Allstar Logo"></div>
+<div id="headerImg"><img src="GMRSnetwork-logo-180x115.png" alt="GMRSnetwork Logo"></div>
 </div>
 <div class="clearer"></div>
 <!-- Login form -->
