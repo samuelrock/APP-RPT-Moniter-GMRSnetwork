@@ -189,10 +189,9 @@ foreach($nodes as $node) {
         $nodeURL = $node;
         $title = "$node - $info";
     } else {
-        $nodeURL = "http://stats.allstarlink.org/nodeinfo.cgi?node=$node";
-        $bubbleChart = "http://stats.allstarlink.org/getstatus.cgi?$node";
+        $nodeURL = "http://stats.gmrsnetwork.com/nodeinfo.cgi?node=$node";
+        $bubbleChart = "http://stats.gmrsnetwork.com/getstatus.cgi?$node";
     	$title = "Node <a href=\"$nodeURL\" target=\"_blank\">$node</a> - $info ";
-    	$title .= "<a href=\"$bubbleChart\" target=\"_blank\" id=\"bubblechart\">Bubble Chart</a>";
     }
 ?>
 	<table class=gridtable id="table_<?php echo $node ?>">
