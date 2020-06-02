@@ -23,14 +23,13 @@
    - Reformat indentation
    - Minor edits to messages
  
-   Samuel 17-May-2020 K5MOB / WQXL267
-    - Comment out Allstar URLs
-    - Comment GMRSnetwork URL
+   Samuel 1-Jun-2020 K5MOB / WQXL267
+   Make edits for GMRSnetwork
  
  
  */
 
-$dir = "/var/www/html/allmon2/";
+$dir = "/var/www/html/am2/";
 $db = $dir . "astdb.txt";
 $privatefile = $dir . "privatenodes.txt";
 
@@ -40,10 +39,7 @@ $private = getenv('PRIVATE_NODE');
 $contents = '';
 $contents2 = '';
 
-#$url = "https://allstarlink.org/cgi-bin/allmondb.pl";
-#$url2 = "https://nodelist.hamvoip.org/getASLdb.php";
-#$url = "http://allmondb.allstarlink.org/";
-$url = "http://am2db.gmrsnetwork.com/";
+$url = "http://gmrsnetwork.com/cgi-bin/am2db.pl";
 
 // Load private nodes if any
 // Private nodes are less than 2000 and loaded first
