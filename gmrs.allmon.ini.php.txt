@@ -1,0 +1,10 @@
+<?php
+[GMRSnetwork.com]
+url=http://www.gmrsnetwork.com
+[1998]
+host=127.0.0.1:5038
+user=admin
+passwd=llcgi
+nomenu=no 
+hideNodeURL=no
+?>
